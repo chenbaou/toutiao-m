@@ -5,6 +5,8 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+//导入全局样式
+import './styles/index.less'
 new Vue({
   router,
   store,
